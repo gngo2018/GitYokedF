@@ -2,7 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { NgModule } from '@angular/core';
 import {
-  MatToolbarModule
+  MatToolbarModule,
+  MatButtonModule
 } from '@angular/material';
 import { HttpClientModule } from '@angular/common/http';
 import { RouterModule } from '@angular/router';
@@ -29,6 +30,7 @@ import { SetInfoComponent } from './components/set-info/set-info.component';
     BrowserModule,
     BrowserAnimationsModule,
     MatToolbarModule,
+    MatButtonModule,
     HttpClientModule,
     RouterModule
   ],

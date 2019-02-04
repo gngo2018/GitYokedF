@@ -1,0 +1,17 @@
+.example-fill-remaining-space{
+    flex: 1 1 auto;
+}
+
+.nav-button{
+    margin-right: 0.5em;
+    background-color:blue;
+}
+
+#btn1{
+    margin-right:0.5em;
+    background-color:turquoise;
+}
+
+#btn2{
+    background-color:turquoise;
+}
